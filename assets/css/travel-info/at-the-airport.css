@@ -1,0 +1,43 @@
+.offer{
+    transform: translate(0);
+    margin-top: 30px;
+}
+
+/* 
+=============================================
+    HEADING SECTION START 
+=============================================
+*/
+.heading .heading-text{
+    margin-top: 20px;
+    padding-left: 34px;
+}
+.heading .heading-text h3{
+    color: #008712;
+    margin-bottom: 15px;
+    position: relative;
+}
+.heading .heading-text h3 i{
+    position: absolute;
+    left: -34px;
+    top: 0px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #008712;
+    color: #008712;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.heading .heading-text p{
+    margin: 10px 0;
+}
+
+/* 
+=============================================
+    HEADING SECTION END 
+=============================================
+*/

@@ -1,0 +1,27 @@
+.flight-book .section-heading{
+    margin-top: 50px;
+}
+.flight-book .section-heading h2{
+    font-size: 38px;
+    color: var(--blue);
+    font-weight: 300;
+}
+.flight-book p{
+    font-size: 14px;
+    font-family: Arial,sans-serif;
+}
+
+.flight-book  h3{
+    font-size: 30px;
+    color: #00467f;
+    margin: 20px 0;
+    opacity: .9;
+}
+
+.flight-book .city-date{
+    padding: 50px 0;
+}
+
+.flight-book .city-date-btns a{
+    font-size: 12px;
+}

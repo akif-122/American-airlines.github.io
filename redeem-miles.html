@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redeem Miles</title>
+
+    <!-- FONT AWESOME ICONS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+
+    <!-- BOOTSTRAP CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" />
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/redeem-miles.css" />
+
+
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <!-- TOP BAR START -->
+            <section class="top-bar">
+                <div class="container d-flex justify-content-end align-items-center">
+                    <div class="top-right ms-auto d-flex align-items-center">
+
+                        <div class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-bs-auto-close="outside"
+                                data-bs-toggle="dropdown"><img src="assets/images/aa-flag.png" width="40px"
+                                    alt="American Flag"> English</a>
+
+                            <div class="dropdown-menu">
+                                <form action="">
+                                    <div class="form-group">
+                                        <label for="">Select Region</label>
+                                        <select class="form-select">
+                                            <option value="">Pakistan</option>
+                                            <option value="">America</option>
+                                            <option value="">Bangladesh</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="">Select Language</label>
+                                        <select class="form-select">
+                                            <option value="">English</option>
+                                            <option value="">Urdu</option>
+                                            <option value="">Pashto</option>
+                                            <option value="">Punjabi</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-check-inline">
+                                        <input type="checkbox" class="form-check-input" name="" id="">
+                                        <label for="" class="form-check-label">Remember this Selection?</label>
+                                    </div>
+
+                                    <div class="d-grid">
+                                        <button class="btn m-btn">Select</button>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="search-wrap">
+                            <form action="">
+                                <div class="form-group">
+                                    <span class="s-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                    <input type="text" class="form-control" placeholder="Search AA.com">
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- TOP BAR END -->
+
+            <!-- NAVBAR SECTION START -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container s-shadow">
+                    <a href="index.html" class="navbar-brand" data-aos="fade-right">
+                        <img src="assets/images/logo.png" width="200" alt="">
+                    </a>
+                    <!-- <a href="#" class="travel-info">
+                    <img src="assets/images/logo-oneworld.png" alt="">
+                </a> -->
+                    <div class="navs d-none d-lg-block" data-aos="zoom-in">
+                        <ul class="nav nav-tabs">
+                            <li><a href="#demo1" data-bs-toggle="tab" class="nav-link ">Plan Travel</a></li>
+                            <li><a href="#demo2" data-bs-toggle="tab" class="nav-link">Travel Information</a></li>
+                            <li><a href="#demo3" data-bs-toggle="tab" class="nav-link">AAdvantage®</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="right-btn ms-auto d-none d-sm-block me-sm-4" data-aos="fade-left">
+                        <a href="#" class="btn btn-primary">Login</a>
+                        <a href="#" class="btn btn-outline-primary">Join</a>
+                    </div>
+
+                    <button class="navbar-toggler d-block d-lg-none" id="toggle-nav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+
+                </div>
+            </nav>
+
+
+            <!-- MEGA MENU SECTION START -->
+            <div class="container mega-menu">
+                <div class="tab-content">
+                    <div class="tab-pane " id="demo1">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h3>Taking a trip?</h3>
+                                <p>We have your
+                                    travel plans covered.</p>
+                            </div>
+
+                            <div class="col-md-3">
+                                <ul class="n-navs">
+                                    <li><a href="flight-book.html">Flights</a></li>
+                                    <li><a href="#">Hotels</a></li>
+                                    <li><a href="car.html">Cars</a></li>
+                                    <li><a href="#">Vacations</a></li>
+                                    <li><a href="#">Cruises</a></li>
+                                </ul>
+
+                            </div>
+
+                            <div class="col-md-3">
+                                <ul class="n-navs">
+                                    <li><a href="redeem-miles.html">Books with miles</a></li>
+                                    <li><a href="deal-travel-offer.html">Travel deals and offers</a></li>
+                                    <li><a href="flight-schedules.html">Flight schedules and Notifications</a></li>
+                                    <li><a href="#">Descover places open for travels</a></li>
+
+                                </ul>
+
+                            </div>
+
+                            <div class="col-md-3">
+                                <ul class=" n-navs br-none">
+                                    <li><a href="#">Flight status</a></li>
+                                    <li><a href="#">Check in</a></li>
+                                    <li><a href="#">Your Trips</a></li>
+                                    <li><a href="#">Your account</a></li>
+                                    <li><a href="#">Join AAdvantage®</a></li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="tab-pane " id="demo2">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h3>Taking a vacation?</h3>
+                                <p>Allow us to
+                                    simplify your travels.</p>
+                            </div>
+
+                            <div class="col-md-3">
+                                <ul class="n-navs">
+                                    <li><a href="./travel-info/at-the-airport.html">At the Airport</a></li>
+                                    <li><a href="./travel-info/travel-experience.html">Travel experience</a></li>
+                                    <li><a href="./travel-info/mobile-and-app.html">Mobile and app</a></li>
+                                    <li><a href="./travel-info/planes.html">Planes</a></li>
+                                    <li><a href="./travel-info/lounges.html">Lounges</a></li>
+                                </ul>
+
+                            </div>
+
+                            <div class="col-md-3">
+                                <ul class="n-navs">
+                                    <li><a href="./travel-info/bags.html">Bags</a></li>
+                                    <li><a href="./travel-info/international-travel.html">International travel</a></li>
+                                    <li><a href="./travel-info/special-assistance.html">Special assistance</a></li>
+                                    <li><a href="./travel-info/airlines-partnership.html">Airline partnerships</a></li>
+                                </ul>
+
+                            </div>
+
+                            <div class="col-md-3">
+                                <ul class=" n-navs br-none">
+                                    <li><a href="#">Flight status</a></li>
+                                    <li><a href="#">Check in</a></li>
+                                    <li><a href="#">Your Trips</a></li>
+                                    <li><a href="#">Your account</a></li>
+                                    <li><a href="#">Join AAdvantage®</a></li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane " id="demo3">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h3>Traveling the world?</h3>
+                                <p>Our loyalty program
+                                    can get you there.</p>
+                            </div>
+
+                            <div class="col-md-3">
+                                <ul class="n-navs">
+                                    <li><a href="./aadvantage-program/aadvantage-program.html">AAdvantage®</a></li>
+                                    <li><a href="./aadvantage-program/aadvantage-status.html">AAdvantage® status</a>
+                                    </li>
+                                    <li><a href="./aadvantage-program/earn-miles.html">Earn miles</a></li>
+                                    <li><a href="./aadvantage-program/redeem-miles.html">Redeem miles</a></li>
+                                    <li><a href="./aadvantage-program/award-travel.html">Award travel</a></li>
+                                </ul>
+
+                            </div>
+
+                            <div class="col-md-3">
+                                <ul class="n-navs">
+                                    <li><a href="#">Earn miles with our partners </a></li>
+                                    <li><a href="#">Buy, gift or transfer miles</a></li>
+                                    <li><a href="./aadvantage-program/aadvantage-credit-cards.html">AAdvantage® credit
+                                            cards</a></li>
+                                </ul>
+
+                            </div>
+
+                            <div class="col-md-3">
+                                <ul class=" n-navs br-none">
+                                    <li><a href="#">Flight status</a></li>
+                                    <li><a href="#">Check in</a></li>
+                                    <li><a href="#">Your Trips</a></li>
+                                    <li><a href="#">Your account</a></li>
+                                    <li><a href="#">Join AAdvantage®</a></li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- MEGA MENU SECTION START -->
+
+            <!-- NAVBAR SECTION END -->
+
+
+             <!-- MOBILE NAV SECTION START -->
+             <div class="mobile-nav" id="mobileNav">
+                <div class="d-flex justify-content-end pt-2 mb-2 ">
+                    <button id="m-close-btn" class="close-m-btn"><i class="fa-regular fa-circle-xmark"></i></button>
+                </div>
+
+                <div class="m-navs ">
+                    <ul class="list-unstyled mb-3 border-bottom pb-3">
+                        <li><a href="#">Flight status <i class="ms-1 fa-solid fa-angles-right"></i></a></li>
+                        <li><a href="#">Check in <i class="ms-1 fa-solid fa-angles-right"></i></a></li>
+                        <li><a href="#">Your Trips <i class="ms-1 fa-solid fa-angles-right"></i></a></li>
+                        <li><a href="#">Your account <i class="ms-1 fa-solid fa-angles-right"></i></a></li>
+                        <li><a href="#">Join AAdvantage® <i class="ms-1 fa-solid fa-angles-right"></i></a></li>
+                    </ul>
+
+                    <div class="collapse-nav">
+                        <a href="#planTravel" class="collapse-toggle" data-bs-toggle="collapse">Plan Travel <i
+                                class="fa-regular fa-circle-down"></i></a>
+
+                        <div class="collapse" id="planTravel">
+                            <ul class="list-unstyled">
+                                <li><a href="flight-book.html">Flights</a></li>
+                                <li><a href="#">Hotels</a></li>
+                                <li><a href="car.html">Cars</a></li>
+                                <li><a href="#">Vacations</a></li>
+                                <li><a href="#">Cruises</a></li>
+                                <li><a href="redeem-miles.html">Books with miles</a></li>
+                                <li><a href="deal-travel-offer.html">Travel deals and offers</a></li>
+                                <li><a href="flight-schedules.html">Flight schedules and Notifications</a></li>
+                                <li><a href="#">Descover places open for travels</a></li>
+                            </ul>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="collapse-nav">
+                        <a href="#travelInformation" class="collapse-toggle" data-bs-toggle="collapse">Travel Information <i
+                                class="fa-regular fa-circle-down"></i></a>
+
+                        <div class="collapse" id="travelInformation">
+                            <ul class="list-unstyled">
+                                <li><a href="./travel-info/at-the-airport.html">At the Airport</a></li>
+                                    <li><a href="./travel-info/travel-experience.html">Travel experience</a></li>
+                                    <li><a href="./travel-info/mobile-and-app.html">Mobile and app</a></li>
+                                    <li><a href="./travel-info/planes.html">Planes</a></li>
+                                    <li><a href="./travel-info/lounges.html">Lounges</a></li>
+                                    <li><a href="./travel-info/bags.html">Bags</a></li>
+                                    <li><a href="./travel-info/international-travel.html">International travel</a></li>
+                                    <li><a href="./travel-info/special-assistance.html">Special assistance</a></li>
+                                    <li><a href="./travel-info/airlines-partnership.html">Airline partnerships</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="collapse-nav">
+                            <a href="#aadavantage" class="collapse-toggle" data-bs-toggle="collapse">AAdavantage <i
+                                    class="fa-regular fa-circle-down"></i></a>
+    
+                            <div class="collapse" id="aadavantage">
+                                <ul class="list-unstyled">
+                                    <li><a href="./aadvantage-program/aadvantage-program.html">AAdvantage®</a></li>
+                                    <li><a href="./aadvantage-program/aadvantage-status.html">AAdvantage® status</a>
+                                    </li>
+                                    <li><a href="./aadvantage-program/earn-miles.html">Earn miles</a></li>
+                                    <li><a href="./aadvantage-program/redeem-miles.html">Redeem miles</a></li>
+                                    <li><a href="./aadvantage-program/award-travel.html">Award travel</a></li>
+                                    <li><a href="#">Earn miles with our partners </a></li>
+                                    <li><a href="#">Buy, gift or transfer miles</a></li>
+                                    <li><a href="./aadvantage-program/aadvantage-credit-cards.html">AAdvantage® credit
+                                            cards</a></li>
+                                </ul>
+                            </div>
+    
+    
+    
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            <!-- MOBILE NAV SECTION END -->
+            
+        </header>
+
+        <!-- REDEEM MILES BANNER START -->
+        <section class="redeem-banner">
+            <div class="container">
+                <h1>Redeem miles</h1>
+                <div class="banner-img">
+                    <img src="assets/images/redeem-miles-banner.jpg" width="100%" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- REDEEM MILES BANNER END -->
+
+        <!-- OUR SERVICES CARDS SECTIONS START -->
+        <section class="our-services">
+            <div class="container">
+                <div class="row our-services-cards">
+
+                    <div class="col-md col-6 p-0 card-wrap">
+                        <div class="our-services-card">
+                            <a href="#" class="service-card text-center">
+                                <img src="assets/images/s1.PNG" class="mx-auto d-block" alt="">
+                                <p>AAdvantage®</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md col-6 p-0 card-wrap">
+                        <div class="our-services-card">
+                            <a href="#" class="service-card text-center">
+                                <img src="assets/images/s2.PNG" class="mx-auto d-block" alt="">
+                                <p>Earn miles</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md col-6 p-0 card-wrap">
+                        <div class="our-services-card">
+                            <a href="#" class="service-card text-center">
+                                <img src="assets/images/s3.PNG" class="mx-auto d-block" alt="">
+                                <p>Redeem miles</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md col-6 p-0 card-wrap">
+                        <div class="our-services-card">
+                            <a href="#" class="service-card text-center">
+                                <img src="assets/images/s4.PNG" class="mx-auto d-block" alt="">
+                                <p>AAdvantage® status</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md col-6 p-0 card-wrap">
+                        <div class="our-services-card">
+                            <a href="#" class="service-card text-center">
+                                <img src="assets/images/s5.PNG" class="mx-auto d-block" alt="">
+                                <p>Loyalty Points</p>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- OUR SERVICES CARDS SECTIONS END -->
+
+        <!-- REDEEM MILES TEXT CARDS START -->
+        <section class="redeem-text-cards">
+            <div class="container">
+                <h2>Travel</h2>
+
+                <div class="row s-shadow pb-5">
+
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <h3>Flights</h3>
+                        <p>Use your miles for travel on American Airlines, oneworld® airlines and partner airlines on
+                            flights to nearly 1,000 destinations worldwide.</p>
+
+                        <div class="d-grid">
+                            <a href="#">AAdvantage® Miles Finder Map </a>
+                            <a href="#">Award travel</a>
+                            <a href="#">Book now </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <h3>Upgrades</h3>
+                        <p>Move to the next cabin on American, British Airways and Iberia flights.</p>
+
+                        <div class="d-grid">
+                            <a href="#">Upgrade with miles </a>
+                            <a href="#">Upgrade with miles on partner airlines</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <h3>Main Cabin seats</h3>
+                        <p>Reserve the best seats in the Main Cabin for yourself and other travelers after booking your
+                            trip.</p>
+
+                        <div class="d-grid">
+                            <a href="#">Reserve seats with miles </a>
+                            <a href="#">Find your trip </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <h3>Admirals Club®</h3>
+                        <p>Buy or renew an Admirals Club® membership.</p>
+
+                        <div class="d-grid">
+                            <a href="#">Admirals Club®</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <h3>Cars, hotels and vacations</h3>
+                        <p>Rent a car, book a hotel or plan a vacation in over 500 destinations.</p>
+
+                        <div class="d-grid">
+                            <a href="#">Redeem miles for cars </a>
+                            <a href="#">Redeem miles for hotels</a>
+                            <a href="#">Book a vacation </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <h3>Luxury experiences</h3>
+                        <p>Enjoy exclusive service, escorts for families at select airports, and more.</p>
+
+                        <div class="d-grid">
+                            <a href="#">Luxury experiences</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+                <div class="row s-shadow pb-5 redeem-text-card-full">
+                    <div class="col-12">
+                        <h2>Experiences</h2>
+                        <h3>Mastercard Priceless® Experiences</h3>
+                        <p>Redeem your miles* to access exclusive experiences in categories like culinary, music, sports and more.</p>
+
+                        <div class="d-grid">
+                            <a href="#">Learn more</a>
+                        </div>
+                        <small>Available to U.S. American Airlines AAdvantage® Mastercard® credit card holders.</small>
+                    </div>
+                </div>
+
+                <div class="row s-shadow pb-5 redeem-text-card-full">
+                    <div class="col-12">
+                        <h2>Donate miles</h2>
+                        <h3>Make a difference</h3>
+                        <p>Join American as we partner with organizations to make the world a better place.</p>
+
+                        <div class="d-grid">
+                            <a href="#">Donate miles </a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="row s-shadow pb-5 redeem-text-card-full">
+                    <div class="col-12">
+                        <h2>You may also like...</h2>
+                        
+                        <div class="d-grid">
+                            <a href="#">Reactivate miles </a>
+                            <a href="#">Request flight miles  </a>
+                            <a href="#">Request missing partner miles </a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+        <!-- REDEEM MILES TEXT CARDS END -->
+
+
+
+        <!-- FOOTER SECTION START -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 mb-4">
+                        <h4>Help</h4>
+
+                        <ul>
+                            <li><a href="#">Contact American</a></li>
+                            <li><a href="#">Receipts and refunds</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Agency reference</a></li>
+                            <li><a href="#">Cargo</a></li>
+                            <li><a href="#">Bag and optional fees</a></li>
+                            <li><a href="#">Customer service and contingency plans</a></li>
+                            <li><a href="#">Conditions of carriage</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 mb-4">
+                        <h4>About American</h4>
+
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">We're hiring! Join our team</a></li>
+                            <li><a href="#">Investor relation</a></li>
+                            <li><a href="#">Newsroom</a></li>
+                            <li><a href="#">Legal, privacy, copyright</a></li>
+                            <li><a href="#">Environmental, social and governance</a></li>
+                            <li><a href="#">Combating human trafficking</a></li>
+                            <li><a href="#">Browser compatibility</a></li>
+                            <li><a href="#">Web accessibility</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <h4>Extras</h4>
+
+                        <ul>
+                            <li><a href="#">Business programs</a></li>
+                            <li><a href="#">Gift cards</a></li>
+                            <li><a href="#">American Airlines credit card</a></li>
+                            <li><a href="#">Trip insurance</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 mb-4 text-center">
+                        <div class="ft-img mb-4">
+                            <a href="#">
+                                <img src="assets/images/ft-img.png" width="100%">
+                            </a>
+                        </div>
+                        <div class="ft-img">
+                            <a href="#">
+                                <img src="assets/images/ft-img2.png" width="100%" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="ft-bottom d-flex align-items-center justify-content-between">
+                    <p> Link opens in new window. Site may not meet accessibility guidelines. AA.com</p>
+                    <ul class="icons nav">
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </footer>
+        <!-- FOOTER SECTION END -->
+
+
+    </div>
+
+     <!-- AOS ANIMATION -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+     <!-- BOOTSTRAP JS -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+ 
+     <!-- CUSTOM JS -->
+     <script src="../assets/js/app.js"></script>
+</body>
+
+</html>

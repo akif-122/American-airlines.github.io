@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAdvantage® Status</title>
+
+    <!-- FONT AWESOME ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <!-- AOS ANIMATION CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <!-- FONT AWESOME ICONS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <!-- BOOTSTRAP CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" />
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/travel-info/at-the-airport.css" />
+
+
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <!-- TOP BAR START -->
+            <section class="top-bar">
+                <div class="container d-flex justify-content-end align-items-center">
+                    <div class="top-right ms-auto d-flex align-items-center">
+
+                        <div class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-bs-auto-close="outside"
+                                data-bs-toggle="dropdown"><img src="../assets/images/aa-flag.png" width="40px"
+                                    alt="American Flag"> English</a>
+
+                            <div class="dropdown-menu">
+                                <form action="">
+                                    <div class="form-group">
+                                        <label for="">Select Region</label>
+                                        <select class="form-select">
+                                            <option value="">Pakistan</option>
+                                            <option value="">America</option>
+                                            <option value="">Bangladesh</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="">Select Language</label>
+                                        <select class="form-select">
+                                            <option value="">English</option>
+                                            <option value="">Urdu</option>
+                                            <option value="">Pashto</option>
+                                            <option value="">Punjabi</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-check-inline">
+                                        <input type="checkbox" class="form-check-input" name="" id="">
+                                        <label for="" class="form-check-label">Remember this Selection?</label>
+                                    </div>
+
+                                    <div class="d-grid">
+                                        <button class="btn m-btn">Select</button>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="search-wrap">
+                            <form action="">
+                                <div class="form-group">
+                                    <span class="s-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                    <input type="text" class="form-control" placeholder="Search AA.com">
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- TOP BAR END -->
+
+            <!-- NAVBAR SECTION START -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container s-shadow">
+                    <a href="../index.html" class="navbar-brand" data-aos="fade-right">
+                        <img src="../assets/images/logo.png" width="200" alt="">
+                    </a>
+                    <!-- <a href="#" class="travel-info">
+                    <img src="assets/images/logo-oneworld.png" alt="">
+                </a> -->
+                    <div class="navs d-none d-lg-block" data-aos="zoom-in">
+                        <ul class="nav nav-tabs">
+                            <li><a href="#demo1" data-bs-toggle="tab" class="nav-link ">Plan Travel</a></li>
+                            <li><a href="#demo2" data-bs-toggle="tab" class="nav-link">Travel Information</a></li>
+                            <li><a href="#demo3" data-bs-toggle="tab" class="nav-link">AAdvantage®</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="right-btn ms-auto d-none d-sm-block me-sm-4" data-aos="fade-left">
+                        <a href="#" class="btn btn-primary">Login</a>
+                        <a href="#" class="btn btn-outline-primary">Join</a>
+                    </div>
+
+                    <button class="navbar-toggler d-block d-lg-none" id="toggle-nav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+
+                </div>
+            </nav>
+
+
+            <!-- MEGA MENU SECTION START -->
+            <div class="container mega-menu">
+                <div class="tab-content">
+                    <div class="tab-pane " id="demo1">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h3>Taking a trip?</h3>
+                                <p>We have your
+                                    travel plans covered.</p>
+                            </div>
+
+                            <div class="col-md-3">
+                                <ul class="n-navs">
+                                    <li><a href="../flight-book.html">Flights</a></li>
+                                    <li><a href="#">Hotels</a></li>
+                                    <li><a href="../car.html">Cars</a></li>
+                                    <li><a href="#">Vacations</a></li>
+                                    <li><a href="#">Cruises</a></li>
+                                </ul>
+
+                            </div>
+
+                            <div class="col-md-3">
+                                <ul class="n-navs">
+                                    <li><a href="../redeem-miles.html">Books with miles</a></li>
+                                    <li><a href="../deal-travel-offer.html">Travel deals and offers</a></li>
+                                    <li><a href="../flight-schedules.html">Flight schedules and Notifications</a></li>
+                                    <li><a href="#">Descover places open for travels</a></li>
+
+                                </ul>
+
+                            </div>
+
+                            <div class="col-md-3">
+                                <ul class=" n-navs br-none">
+                                    <li><a href="#">Flight status</a></li>
+                                    <li><a href="#">Check in</a></li>
+                                    <li><a href="#">Your Trips</a></li>
+                                    <li><a href="#">Your account</a></li>
+                                    <li><a href="#">Join AAdvantage®</a></li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="tab-pane " id="demo2">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h3>Taking a vacation?</h3>
+                                <p>Allow us to
+                                    simplify your travels.</p>
+                            </div>
+
+                            <div class="col-md-3">
+                                <ul class="n-navs">
+                                    <li><a href="../travel-info/at-the-airport.html">At the Airport</a></li>
+                                    <li><a href="../travel-info/travel-experience.html">Travel experience</a></li>
+                                    <li><a href="../travel-info/mobile-and-app.html">Mobile and app</a></li>
+                                    <li><a href="../travel-info/planes.html">Planes</a></li>
+                                    <li><a href="../travel-info/lounges.html">Lounges</a></li>
+                                </ul>
+
+                            </div>
+
+                            <div class="col-md-3">
+                                <ul class="n-navs">
+                                    <li><a href="../travel-info/bags.html">Bags</a></li>
+                                    <li><a href="../travel-info/international-travel.html">International travel</a></li>
+                                    <li><a href="../travel-info/special-assistance.html">Special assistance</a></li>
+                                    <li><a href="../travel-info/airlines-partnership.html">Airline partnerships</a></li>
+                                </ul>
+
+                            </div>
+
+                            <div class="col-md-3">
+                                <ul class=" n-navs br-none">
+                                    <li><a href="#">Flight status</a></li>
+                                    <li><a href="#">Check in</a></li>
+                                    <li><a href="#">Your Trips</a></li>
+                                    <li><a href="#">Your account</a></li>
+                                    <li><a href="#">Join AAdvantage®</a></li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane " id="demo3">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h3>Traveling the world?</h3>
+                                <p>Our loyalty program
+                                    can get you there.</p>
+                            </div>
+
+                            <div class="col-md-3">
+                                <ul class="n-navs">
+                                    <li><a href="./aadvantage-program.html">AAdvantage®</a></li>
+                                    <li><a href="./aadvantage-status.html">AAdvantage® status</a>
+                                    </li>
+                                    <li><a href="./earn-miles.html">Earn miles</a></li>
+                                    <li><a href="./redeem-miles.html">Redeem miles</a></li>
+                                    <li><a href="./award-travel.html">Award travel</a></li>
+                                </ul>
+
+                            </div>
+
+                            <div class="col-md-3">
+                                <ul class="n-navs">
+                                    <li><a href="#">Earn miles with our partners </a></li>
+                                    <li><a href="#">Buy, gift or transfer miles</a></li>
+                                    <li><a href="./aadvantage-credit-cards.html">AAdvantage® credit
+                                            cards</a></li>
+                                </ul>
+
+                            </div>
+
+                            <div class="col-md-3">
+                                <ul class=" n-navs br-none">
+                                    <li><a href="#">Flight status</a></li>
+                                    <li><a href="#">Check in</a></li>
+                                    <li><a href="#">Your Trips</a></li>
+                                    <li><a href="#">Your account</a></li>
+                                    <li><a href="#">Join AAdvantage®</a></li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- MEGA MENU SECTION START -->
+
+            <!-- NAVBAR SECTION END -->
+
+            <!-- MOBILE NAV SECTION START -->
+            <div class="mobile-nav" id="mobileNav">
+                <div class="d-flex justify-content-end pt-2 mb-2 ">
+                    <button id="m-close-btn" class="close-m-btn"><i class="fa-regular fa-circle-xmark"></i></button>
+                </div>
+
+                <div class="m-navs ">
+                    <ul class="list-unstyled mb-3 border-bottom pb-3">
+                        <li><a href="#">Flight status <i class="ms-1 fa-solid fa-angles-right"></i></a></li>
+                        <li><a href="#">Check in <i class="ms-1 fa-solid fa-angles-right"></i></a></li>
+                        <li><a href="#">Your Trips <i class="ms-1 fa-solid fa-angles-right"></i></a></li>
+                        <li><a href="#">Your account <i class="ms-1 fa-solid fa-angles-right"></i></a></li>
+                        <li><a href="#">Join AAdvantage® <i class="ms-1 fa-solid fa-angles-right"></i></a></li>
+                    </ul>
+
+                    <div class="collapse-nav">
+                        <a href="#planTravel" class="collapse-toggle" data-bs-toggle="collapse">Plan Travel <i
+                                class="fa-regular fa-circle-down"></i></a>
+
+                        <div class="collapse" id="planTravel">
+                            <ul class="list-unstyled">
+                                <li><a href="../flight-book.html">Flights</a></li>
+                                <li><a href="#">Hotels</a></li>
+                                <li><a href="../car.html">Cars</a></li>
+                                <li><a href="#">Vacations</a></li>
+                                <li><a href="#">Cruises</a></li>
+                                <li><a href="../redeem-miles.html">Books with miles</a></li>
+                                <li><a href="../deal-travel-offer.html">Travel deals and offers</a></li>
+                                <li><a href="../flight-schedules.html">Flight schedules and Notifications</a></li>
+                                <li><a href="#">Descover places open for travels</a></li>
+                            </ul>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="collapse-nav">
+                        <a href="#travelInformation" class="collapse-toggle" data-bs-toggle="collapse">Travel
+                            Information <i class="fa-regular fa-circle-down"></i></a>
+
+                        <div class="collapse" id="travelInformation">
+                            <ul class="list-unstyled">
+                                <li><a href="../travel-info/at-the-airport.html">At the Airport</a></li>
+                                <li><a href="../travel-info/travel-experience.html">Travel experience</a></li>
+                                <li><a href="../travel-info/mobile-and-app.html">Mobile and app</a></li>
+                                <li><a href="../travel-info/planes.html">Planes</a></li>
+                                <li><a href="../travel-info/lounges.html">Lounges</a></li>
+                                <li><a href="../travel-info/bags.html">Bags</a></li>
+                                <li><a href="../travel-info/international-travel.html">International travel</a></li>
+                                <li><a href="../travel-info/special-assistance.html">Special assistance</a></li>
+                                <li><a href="../travel-info/airlines-partnership.html">Airline partnerships</a></li>
+                            </ul>
+                        </div>
+
+
+
+
+
+                    </div>
+
+                    <div class="collapse-nav">
+                        <a href="#aadavantage" class="collapse-toggle" data-bs-toggle="collapse">AAdavantage <i
+                                class="fa-regular fa-circle-down"></i></a>
+
+                        <div class="collapse" id="aadavantage">
+                            <ul class="list-unstyled">
+                                <li><a href="./aadvantage-program.html">AAdvantage®</a></li>
+                                <li><a href="./aadvantage-status.html">AAdvantage® status</a>
+                                </li>
+                                <li><a href="./earn-miles.html">Earn miles</a></li>
+                                <li><a href="./redeem-miles.html">Redeem miles</a></li>
+                                <li><a href="./award-travel.html">Award travel</a></li>
+                                <li><a href="#">Earn miles with our partners </a></li>
+                                <li><a href="#">Buy, gift or transfer miles</a></li>
+                                <li><a href="./aadvantage-credit-cards.html">AAdvantage® credit
+                                        cards</a></li>
+                            </ul>
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            <!-- MOBILE NAV SECTION END -->
+            
+        </header>
+
+
+        <!--  BANNER START -->
+        <section class="redeem-banner my-5">
+            <div class="container s-shadow">
+                <h1 class="mb-3">AAdvantage® status</h1>
+                <div class="banner-img" data-aos="zoom-in">
+                    <img src="../assets/images/aadvantage/aadvantage-aadvantage-status-banner.jpg" width="100%" alt="">
+                </div>
+            </div>
+        </section>
+        <!--  BANNER END -->
+
+        <!-- OUR SERVICES CARDS SECTIONS START -->
+        <section class="our-services" data-aos="zoom-in">
+            <div class="container">
+
+                <div class="row our-services-cards">
+
+                    <div class="col-md col-6 p-0 card-wrap">
+                        <div class="our-services-card">
+                            <a href="#" class="service-card text-center">
+                                <img src="../assets/images/s1.PNG" class="mx-auto d-block" alt="">
+                                <p>AAdvantage®</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md col-6 p-0 card-wrap">
+                        <div class="our-services-card">
+                            <a href="#" class="service-card text-center">
+                                <img src="../assets/images/s2.PNG" class="mx-auto d-block" alt="">
+                                <p>Earn miles</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md col-6 p-0 card-wrap">
+                        <div class="our-services-card">
+                            <a href="#" class="service-card text-center">
+                                <img src="../assets/images/s3.PNG" class="mx-auto d-block" alt="">
+                                <p>Redeem miles</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md col-6 p-0 card-wrap">
+                        <div class="our-services-card">
+                            <a href="#" class="service-card text-center">
+                                <img src="../assets/images/s4.PNG" class="mx-auto d-block" alt="">
+                                <p>AAdvantage® status</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md col-6 p-0 card-wrap">
+                        <div class="our-services-card">
+                            <a href="#" class="service-card text-center">
+                                <img src="../assets/images/s5.PNG" class="mx-auto d-block" alt="">
+                                <p>Loyalty Points</p>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- OUR SERVICES CARDS SECTIONS END -->
+
+        <!-- CREDIT CARD -->
+        <section class="my-5 ">
+            <div class="container s-shadow py-5">
+                <h2>You fly at a higher level – these benefits take you even higher</h2>
+                <!-- CRIDET CARDS -->
+                <div class="credit-cards my-5" data-aos="fade-right">
+                    <h3 class="my-4">AAdvantage Gold®
+                    </h3>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4">
+                            <img src="../assets/images/aadvantage/aadvantage-aadvantage-status-gold-card-art.jpg"
+                                width="100%" alt="">
+                        </div>
+                        <div class="col-lg-9 col-md-8 ">
+                            <h4>You earned it – now enjoy it</h4>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li>
+                                            <p>Complimentary upgrades on American and Alaska Airlines*
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>24-hour upgrade window
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>40% status mileage bonus
+                                            </p>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li>
+                                            <p>Complimentary Main Cabin Extra Seats at check-in*
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>Complimentary Preferred Seats*
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>1 free checked bag^
+                                            </p>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                            <div class="d-grid gap-2">
+                                <a href="#">Explore the benefits</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- CRIDET CARDS -->
+
+                <!-- CRIDET CARDS -->
+                <div class="credit-cards my-5" data-aos="zoom-in">
+                    <h3 class="my-4">AAdvantage Platinum®
+                    </h3>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4">
+                            <img src="../assets/images/aadvantage/aadvantage-aadvantage-status-platinum-card-art.jpg"
+                                width="100%" alt="">
+                        </div>
+                        <div class="col-lg-9 col-md-8 ">
+                            <h4>You earned it – make every travel moment comfortable
+                            </h4>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li>
+                                            <p>Complimentary upgrades on American and Alaska Airlines*
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>24-hour upgrade window
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>40% status mileage bonus
+                                            </p>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li>
+                                            <p>Complimentary Main Cabin Extra Seats at check-in*
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>Complimentary Preferred Seats*
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>1 free checked bag^
+                                            </p>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                            <div class="d-grid gap-2">
+                                <a href="#">Explore the benefits</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- CRIDET CARDS -->
+
+                <!-- CRIDET CARDS -->
+                <div class="credit-cards my-5" data-aos="fade-left">
+                    <h3 class="my-4">AAdvantage Platinum Pro®
+
+                    </h3>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4">
+                            <img src="../assets/images/aadvantage/aadvantage-aadvantage-status-platinum-pro-card-art.jpg"
+                                width="100%" alt="">
+                        </div>
+                        <div class="col-lg-9 col-md-8 ">
+                            <h4>You travel like a pro – keep it up with these benefits
+
+                            </h4>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li>
+                                            <p>Complimentary upgrades on American and Alaska Airlines*
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>24-hour upgrade window
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>40% status mileage bonus
+                                            </p>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li>
+                                            <p>Complimentary Main Cabin Extra Seats at check-in*
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>Complimentary Preferred Seats*
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>1 free checked bag^
+                                            </p>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                            <div class="d-grid gap-2">
+                                <a href="#">Explore the benefits</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- CRIDET CARDS -->
+
+                <!-- CRIDET CARDS -->
+                <div class="credit-cards my-5" data-aos="fade-up">
+                    <h3 class="my-4">AAdvantage Executive Platinum®
+
+
+                    </h3>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4">
+                            <img src="../assets/images/aadvantage/aadvantage-aadvantage-status-executive-platinum-card-art.jpg"
+                                width="100%" alt="">
+                        </div>
+                        <div class="col-lg-9 col-md-8 ">
+                            <h4>You made it to the top – now make the most of it
+                            </h4>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li>
+                                            <p>Complimentary upgrades on American and Alaska Airlines*
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>24-hour upgrade window
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>40% status mileage bonus
+                                            </p>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li>
+                                            <p>Complimentary Main Cabin Extra Seats at check-in*
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>Complimentary Preferred Seats*
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>1 free checked bag^
+                                            </p>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                            </div>
+
+                            <div class="d-grid gap-2">
+                                <a href="#">Explore the benefits</a>
+                            </div>
+
+                        </div>
+
+                        <div class="col-12 mt-4">
+                            <small>*Benefit may not be available on all flights.</small>
+                            <small>
+                                <p>
+                                    ^Free checked bags apply, based on the member’s status, for members and guests
+                                    traveling on the same reservation (excluding group reservations) on itineraries
+                                    marketed and operated by American Airlines. If the standard cabin allowance is
+                                    higher than the number of free checked bags for your status, then the standard cabin
+                                    allowance applies. Free checked bags may not apply to codeshare flights operated by
+                                    our partners. Visit the website of the airline operating your flight for details.
+
+                                </p>
+                            </small>
+                            <small><a href="#">Other airlines <i class="ms-1 fa-solid fa-angles-right"></i></a></small>
+
+
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <a href="#">AAdvantage® status benefits <i class="ms-1 fa-solid fa-angles-right"></i></a>
+                            <a href="#">AAdvantage® status offers <i class="ms-1 fa-solid fa-angles-right"></i></a>
+                            <a href="#">Loyalty Point Rewards <i class="ms-1 fa-solid fa-angles-right"></i></a>
+                            <a href="#">AAdvantage® program updates <i class="ms-1 fa-solid fa-angles-right"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- CRIDET CARDS -->
+
+
+
+            </div>
+
+        </section>
+        <!-- CREDIT CARD END-->
+
+
+
+
+        <section class="my-5 ">
+            <div class="container s-shadow py-5">
+                <div class="row">
+                    <div class="col-md-12" data-aos="fade-right">
+                        <h2 class="mb-3">Elevate your status and move up to more benefits</h2>
+                        <h3 class="mb-3">Qualify for status with Loyalty Points</h3>
+                        <p>Loyalty Points are the new way to reach AAdvantage® status. You’ll qualify for status based
+                            on the Loyalty Points posted to your account for the 12-month period starting on March 1 of
+                            each year. And, the new AAdvantage® status membership year is valid through March 31 of each
+                            year.</p>
+                        <p class="mt-3">You’ll earn Loyalty Points as you earn eligible AAdvantage® miles whenever you
+                            fly, use an
+                            AAdvantage® credit card for purchases, or earn eligible miles with AAdvantage® partners. One
+                            eligible AAdvantage® mile equals one Loyalty Point.</p>
+
+                        <div class="mt-4">
+                            <h2>Loyalty Points needed to earn status</h2>
+                            <div class="table-responsive table-common">
+                                <table class="table ">
+                                    <thead>
+                                        <tr>
+                                            <th>Qualification</th>
+                                            <th class="text-center">AAdvantage Gold® oneworld® Ruby </th>
+                                            <th class="text-center">AAdvantage Platinum® oneworld® Sapphire </th>
+                                            <th class="text-center">AAdvantage Platinum Pro® oneworld® Emerald </th>
+                                            <th class="text-center">AAdvantage Executive Platinum® oneworld® Emerald
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Loyalty Points </td>
+                                            <td class="text-center">40,000</td>
+                                            <td class="text-center">75,000</td>
+                                            <td class="text-center">125,000</td>
+                                            <td class="text-center">200,000</td>
+                                        </tr>
+
+
+
+
+                                    </tbody>
+                                </table>
+                            </div>
+
+
+                        </div>
+
+                        <div class="d-grid gap-1">
+                            <a href="#">Check your progress in your account <i
+                                    class="ms-1 fa-solid fa-angles-right"></i></a>
+                            <a href="#">Read more about Loyalty Points <i class="ms-1 fa-solid fa-angles-right"></i></a>
+                            <a href="#">AAdvantage® credit cards <i class="ms-1 fa-solid fa-angles-right"></i></a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="mt-5">
+            <div class="container py-5 s-shadow">
+                <h2 class="mb-3">Qualification and membership year period</h2>
+                <p>The status qualification year starts on March 1 and runs through the last day of February.</p>
+
+                <ul class="my-2">
+                    <li>
+                        <p>For example, in 2024, your counter will restart on March 1, 2024, and run through February
+                            28, 2025.</p>
+                    </li>
+                    <li>
+                        <p>The membership year (when your status is valid) takes effect the date you qualify, or April 1
+                            (whichever comes first) and will be valid through March 31.
+                        </p>
+                    </li>
+                </ul>
+
+                <p>AAdvantage® miles and Loyalty Points earned on purchases made with your AAdvantage® credit card will
+                    count based on the date the activity posts to the primary cardmember’s AAdvantage® account,
+                    typically within 8 to 10 weeks. Review your AAdvantage® Aviator® Mastercard® Reward Rules and your
+                    Citi® AAdvantage Card Directory of Services for details. Keep in mind, Loyalty Points that post on
+                    or after March 1 count toward the new qualification year. All other flight and partner transactions
+                    will count based on the activity date of the flight or other transaction.
+
+                </p>
+
+            </div>
+
+        </section>
+
+        <section class="mt-5">
+            <div class="container py-5 s-shadow">
+                <h2 class="mb-3">More of a good thing: Earn more miles when you fly
+                </h2>
+                <h3 class="my-3">Status mileage bonus</h3>
+
+              <p>AAdvantage Executive Platinum® members earn a 120% bonus, AAdvantage Platinum Pro® members earn an 80% bonus, AAdvantage Platinum® members earn a 60% bonus and AAdvantage Gold® members earn a 40% bonus on top of base miles earned traveling with American and participating oneworld® airlines. And the additional miles count toward earning Loyalty Points.</p>
+            
+              <a href="#">Status mileage bonus </a>
+
+            </div>
+
+        </section>
+
+        <section class="mt-5">
+            <div class="container py-5 s-shadow">
+                <h2 class="mb-3">AAdvantage Million Miler™ program</h2>
+
+              <p>Fly 1 million miles with us and enjoy AAdvantage Gold® status for the life of the AAdvantage Gold® program, bonus miles and more. Fly 2 million miles and enjoy AAdvantage Platinum® status.</p>
+            
+              <a href="#">Million Miler™ program </a>
+
+            </div>
+
+        </section>
+
+        <section class="mt-5">
+            <div class="container py-5 s-shadow">
+                <h2 class="mb-3">Opportunity to Enhance with Miles</h2>
+
+              <p>Starting at 40,000 Loyalty Points, AAdvantage® members can unlock Enhance with Miles. As you reach certain Loyalty Point Reward levels, you have the opportunity to redeem miles and customize your experience. You’ll find Enhance with Miles in your AAdvantage® account once you qualify.</p>
+            
+              <a href="#">Enhance with Miles terms and conditions </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ALSO MAY LIKE  -->
+        <section class="my-5 " data-aos="zoom-in">
+            <div class="container py-3">
+                <h2 class="mb-3">You may also like...</h2>
+                <div class="offer-card-text d-grid gap-2">
+                    <a href="#">Find out more about traveling with oneworld® <i
+                            class="ms-1 fa-solid fa-angles-right"></i></a>
+                    <a href="#">Find out more about traveling with oneworld® <i
+                            class="ms-1 fa-solid fa-angles-right"></i></a>
+                    <a href="#">Find out more about traveling with oneworld® <i
+                            class="ms-1 fa-solid fa-angles-right"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- ALSO MAY LIKE  END -->
+
+
+        <div class="back-to-top container mt-5">
+            <a href="#">
+                <h3><i class="fa-regular fa-circle-up fs-4 me-2"></i> Back to top</h3>
+            </a>
+        </div>
+
+        <!-- FOOTER SECTION START -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 mb-4">
+                        <h4>Help</h4>
+
+                        <ul>
+                            <li><a href="#">Contact American</a></li>
+                            <li><a href="#">Receipts and refunds</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Agency reference</a></li>
+                            <li><a href="#">Cargo</a></li>
+                            <li><a href="#">Bag and optional fees</a></li>
+                            <li><a href="#">Customer service and contingency plans</a></li>
+                            <li><a href="#">Conditions of carriage</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 mb-4">
+                        <h4>About American</h4>
+
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">We're hiring! Join our team</a></li>
+                            <li><a href="#">Investor relation</a></li>
+                            <li><a href="#">Newsroom</a></li>
+                            <li><a href="#">Legal, privacy, copyright</a></li>
+                            <li><a href="#">Environmental, social and governance</a></li>
+                            <li><a href="#">Combating human trafficking</a></li>
+                            <li><a href="#">Browser compatibility</a></li>
+                            <li><a href="#">Web accessibility</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <h4>Extras</h4>
+
+                        <ul>
+                            <li><a href="#">Business programs</a></li>
+                            <li><a href="#">Gift cards</a></li>
+                            <li><a href="#">American Airlines credit card</a></li>
+                            <li><a href="#">Trip insurance</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 mb-4 text-center">
+                        <div class="ft-img mb-4">
+                            <a href="#">
+                                <img src="../assets/images/ft-img.png" width="100%">
+                            </a>
+                        </div>
+                        <div class="ft-img">
+                            <a href="#">
+                                <img src="../assets/images/ft-img2.png" width="100%" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="ft-bottom d-flex align-items-center justify-content-between">
+                    <p> Link opens in new window. Site may not meet accessibility guidelines. AA.com</p>
+                    <ul class="icons nav">
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </footer>
+        <!-- FOOTER SECTION END -->
+
+
+    </div>
+
+    <!--  -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="../assets/js/app.js"></script>
+</body>
+
+</html>
