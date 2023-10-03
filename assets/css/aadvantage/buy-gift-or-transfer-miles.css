@@ -1,0 +1,118 @@
+
+/*  LOGIN SECTION START */
+.login-section{
+    background: linear-gradient(to right, transparent 45%, #085abd 40%) ;
+    padding: 100px 10px;
+}
+.login-section .sign-in-cards p{
+    font-size: 15px;
+}
+.login-section .sign-in-cards .sign-in-card{
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.22);
+    border: 1px solid #f5f5f7;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 20px 0;
+}
+.login-section .sign-in-cards .sign-in-card .icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #085abd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-section .sign-in-cards .sign-in-card .icon img{
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+}
+.login-section .sign-in-cards .sign-in-card h4{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.login-section .sign-in-cards .sign-in-card p{
+    font-size: 15px;
+}
+
+
+
+.login-form h2{
+    color: #fff;
+    font-size: 38px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.login-form h2 span{
+    font-weight: 300;
+}
+.login-form p{
+    font-size: 15px;
+    color: #fff;
+}
+.login-form form{
+    margin-top: 20px;
+}
+.login-form form h3{
+    font-size: 28px;
+    font-weight: 400;
+    color: #fff;
+}
+.login-form form a{
+    font-size: 14px;
+    display: inline-block;
+}
+.login-form form  .form-group{
+    position: relative;
+}
+.login-form form  .form-group label{
+    position: absolute;
+    left: 5px;
+    top: 3px;
+    color: #627a88;
+}
+.login-form form  .form-group input{
+    border: 1px solid #d0dae0 !important;
+    padding: 22px 9px 0 !important;
+    min-height: 50px;
+    box-shadow: none;
+    font-size: .93333rem;
+    line-height: 20px;
+    border-radius: 3px !important;
+}
+.login-form .login-btn{
+    margin: 20px 0;
+}
+.login-form .login-btn button{
+    font-size: 20px;
+    font-weight: 500;
+    color: #085abd;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid #fff;
+}
+.login-form p a{
+    display: inline;
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 767px){
+    .login-section{
+        background: linear-gradient(to bottom, transparent 50%, #085abd 40%) ;
+        padding: 100px 10px;
+    }
+    .login-section .sign-in-cards{
+        margin-bottom: 100px;
+    }
+   
+}
+
+/*  LOGIN SECTION end */
+
+.footer{
+    margin-top: 0;
+}
